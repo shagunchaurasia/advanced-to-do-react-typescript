@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe9e46f3.css",
-    "main.js": "/static/js/main.4a8cb7d8.js",
-    "static/js/787.eadd97fc.chunk.js": "/static/js/787.eadd97fc.chunk.js",
-    "index.html": "/index.html",
-    "main.fe9e46f3.css.map": "/static/css/main.fe9e46f3.css.map",
-    "main.4a8cb7d8.js.map": "/static/js/main.4a8cb7d8.js.map",
-    "787.eadd97fc.chunk.js.map": "/static/js/787.eadd97fc.chunk.js.map"
+    "main.css": "/advanced-to-do-react-typescript/static/css/main.fe9e46f3.css",
+    "main.js": "/advanced-to-do-react-typescript/static/js/main.2dd4be8c.js",
+    "static/js/787.eadd97fc.chunk.js": "/advanced-to-do-react-typescript/static/js/787.eadd97fc.chunk.js",
+    "index.html": "/advanced-to-do-react-typescript/index.html",
+    "main.fe9e46f3.css.map": "/advanced-to-do-react-typescript/static/css/main.fe9e46f3.css.map",
+    "main.2dd4be8c.js.map": "/advanced-to-do-react-typescript/static/js/main.2dd4be8c.js.map",
+    "787.eadd97fc.chunk.js.map": "/advanced-to-do-react-typescript/static/js/787.eadd97fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe9e46f3.css",
-    "static/js/main.4a8cb7d8.js"
+    "static/js/main.2dd4be8c.js"
   ]
 }
