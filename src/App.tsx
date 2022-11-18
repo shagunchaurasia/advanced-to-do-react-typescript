@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Route, Routes, Navigate } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="my-4">
+      <Routes>
+        <Route path="/" element={<h1>Hi H1</h1>}></Route>
+        <Route path="/new" element={<h1>New </h1>}></Route>
+        <Route path="/:id">
+          <Route index element={<h1>Show</h1>}></Route>
+          <Route path="edit" element={<h1>Edit</h1>}></Route>
+        </Route>
+        <Route path="*" element={<Navigate to="/" />}></Route>
+      </Routes>
+    </Container>
   );
 }
 
